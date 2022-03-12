@@ -1,0 +1,42 @@
+:root {
+    --clr-black: #000000;
+    --clr-white: #FFFFFF;
+
+    --ff-font: 'Courier New', Courier, monospace;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.navbar {
+    a:link {
+        text-decoration: none;
+        color: var(--clr-white);
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: var(--clr-white);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: var(--clr-white);
+    }
+
+    a:active {
+        text-decoration: underline;
+        color: var(--clr-white);
+    }
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--ff-font);
+
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+}
