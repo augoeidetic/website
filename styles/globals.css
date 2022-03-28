@@ -16,10 +16,38 @@ body {
   box-sizing: border-box;
 }
 
+/* container */
+.center-container {
+  width: 90%;
+  max-width: 1000px;
+
+  position: absolute;
+  inset: 25% 0 0 0;
+  margin: 0 auto;
+}
+
+/* cli */
+.cli {
+  margin: 0 auto;
+}
+
+.cli > input {
+  font-size: 30px;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  border-bottom: solid;
+}
+
+.cli > input:focus {
+  outline: none;
+}
+
 /* header */
 .header {
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .mobile-header-menu-toggle {
@@ -28,12 +56,17 @@ body {
 
 .header-menu {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-top: 8px;
+  --gap: 2em;
 }
 
 .header-menu a {
   text-decoration: none;
+}
+
+.header-menu a:hover {
+  border-bottom: solid 2px;
+  padding-bottom: 6px;
 }
 
 .header-menu a > [aria-hidden="true"] {
