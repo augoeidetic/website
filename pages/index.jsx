@@ -1,11 +1,13 @@
 import React from "react"
 import Link from "next/link"
 
+
+
 export default function Home() {
   return <div>
     <div id="body" className="center-container">
       <div id="" className="cli">
-        <input className="" type="text" placeholder="type..." />
+        <input className="cli-input" type="text" placeholder="type..." />
       </div>
 
     <nav className="flex header">
