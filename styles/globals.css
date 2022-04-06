@@ -130,7 +130,7 @@ body {
   .mobile-header-menu-toggle {
     display: block;
     position: absolute;
-    background: url("../assets/icons8-hamburger-64.png") no-repeat;
+    background: url("../public/icons/hamburger-white.png") no-repeat;
     background-size: contain;
     border: 0;
     z-index: 9999;
@@ -145,4 +145,8 @@ body {
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
+}
+
+.custom404 {
+  background: red;
 }
