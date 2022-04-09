@@ -1,14 +1,16 @@
 import React from "react"
 
 import Navbar from "../components/home/Navbar";
-import CLI from "../components/common/cli";
+import CliInput from "../components/cli/CliInput";
+import BlogBox from "../components/common/BlogBox";
 
 const Home = () => (
   <>
     <div id="body" className="center-container">
 
-      <CLI />
+      <CliInput />
       <Navbar />
+      <BlogBox />
 
     </div>
   </>

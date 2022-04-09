@@ -1,6 +1,10 @@
 .glitch {
-	position: relative;
+	margin: 0 auto;
 	animation: glitch 2s steps(100) infinite
+}
+
+.glitch h1 {
+	font-size: 48px;
 }
 
 @keyframes glitch {
